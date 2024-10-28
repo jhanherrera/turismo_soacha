@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+.caja{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    width: 800px;
+    height: 800px;
+}
+.caja__contenido{
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.caja1{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 800px;
+    height: 800px;
+}
+
+.caja__contenido1{
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+    justify-content: end;
+    flex-direction: column;
+
+}
